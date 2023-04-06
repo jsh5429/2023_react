@@ -1,0 +1,117 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'establishRetrosansOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+    font-family: '양진체';
+}
+
+h1{
+    font-family: 'PyeongChangPeace-Bold';
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+h3{
+    font-family: 'establishRetrosansOTF';
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    border: none;
+    margin: 8px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: rgb(255, 130, 130);
+    color: white;
+}
+
+ul button{
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+ul input[type="checkbox"]{
+    margin: 8px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgba(255,255,255,0.7);
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    border: 2px solid  rgba(255, 130, 130, 0.5);
+    border-style: dashed;
+}
+
+body{
+    background-image: url(../img/키보드팬시.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+hr{
+    border: solid rgba(255,255,255,0.7) 2px;
+    border-style: dotted;
+}
+
+
+
+.on{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.not-today{
+    display: none;
+}
+
+.todo-btn{
+    font-family: 'PyeongChangPeace-Bold';
+    padding: 20px;
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: white;
+    color: rgba(255, 130, 130, 1);
+}
+.input-form input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.input-form button{
+    padding: 15px;
+    border-radius: 8px;
+    font-family: '양진체';
+
+}
