@@ -7,6 +7,9 @@ export default function Story() {
   const value = useContext(DataContext);
   const { list } = value.state;
   const {name} = useParams();
+  // params값으로 들고온 name과 context로 들고온 list에서 find로 일치하는 객체의
+  // name과 같은 경우 storyDate에 그 객체를 넣는다.
+  // filter는 값을 배열로 출력한다.
   const storyDate = list.find((d)=>d.name == name);
   //console.log(list)
   //console.log(storyDate);

@@ -1,3 +1,5 @@
+/* NavLink와 Link는 a의 디자인을 넣어서 바꾼다.*/
+/* Link의 경우 className이 안 먹히는 경우가 있다. */
 *{
     text-align: center;
 }

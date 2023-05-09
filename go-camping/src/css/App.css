@@ -1,0 +1,14 @@
+.slick-dots{
+    top : 700px;
+}
+
+.slick-slider /*슬라이드 틀 조정*/
+{
+    padding-top: 80px;
+    position:relative;
+    display:inline-block;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}

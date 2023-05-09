@@ -7,12 +7,10 @@ export default function HeaderLink() {
     <div>
         {/** a태그 대신 컴포넌트의 주소로 이동 */}
         <NavLink 
-          className={({isActive})=>isActive?"link-style":"link-nomal-style"}
-          to="/"
+          
         >Home</NavLink>
         <NavLink
-            className={({isActive})=>isActive?"link-style":"link-nomal-style"}
-            to="/story"
+            
         >
             Story
         </NavLink>

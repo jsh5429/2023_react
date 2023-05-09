@@ -1,0 +1,13 @@
+.footer{
+    background-color: #A60311;
+    width: 100%;
+    padding: 50px;
+    height: 100px;
+    text-align: center;
+    color: #BFAE99;
+}
+
+.footer ul {
+    float: right;
+}
+
